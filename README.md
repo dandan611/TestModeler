@@ -16,14 +16,17 @@
 * Easy start up
 * Web System
 
-## Usage
+## Install
 ```bash
 hogehoge
 ```
 
-## Install
+## Usage
 ```bash
-hogehoge
+cd /home/vagrant/git/tabby/tabby
+workon tabby
+cd tabby
+python manage.py runserver 0.0.0.0:8000
 ```
 
 ## Language and Package
