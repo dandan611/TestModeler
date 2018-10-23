@@ -1,47 +1,38 @@
 # Tabby
-* Test design Technique Modeling Tool(example:XXX)
+* Test design Technique Modeling Tool
 
-## Description
-* hogehoge
+## Table of contents
 
-## Demo
-* hogehoge
+* [Requrement](#Requrement)
+* [Setup](#Setup)
+* [Usage](#Usage)
+* [Licence](#License)
 
-## VS. 
-* hogehoge
+---
 
 ## Requirement
+
 * Using this tool, the test system can be modeled
 * Support Test design Techniques (ISTQB)
 * Easy start up
 * Web System
 
-## Install
+## Setup
+
 ```bash
-hogehoge
+git clone git@github.com:dandan611/tabby.git
+cd tabby
+mkvirtualenv --python=/usr/bin/python3.6 tabby
+pip install -r requirements.txt
 ```
 
 ## Usage
+
 ```bash
-cd /home/vagrant/git/tabby/tabby
 workon tabby
 cd tabby
 python manage.py runserver 0.0.0.0:8000
 ```
 
-## Language and Package
-* [Python3](https://www.python.org/downloads/)
-* [Django](https://www.djangoproject.com/)
-* [pytest](https://docs.pytest.org/en/latest/)
-* [nightmare](http://www.nightmarejs.org/)  
-
 ## Licence
 [MIT]
-
-## Author
-
-[dandan611](https://twitter.com/dandan_611)
-
-## XXX
-* For the development of test technology.
-* For happiness of development and testing.
