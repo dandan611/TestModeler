@@ -31,8 +31,26 @@ pip install -r requirements.txt
 ```bash
 workon tabby
 cd tabby
+python manage.py migrate
 python manage.py runserver 0.0.0.0:8000
 ```
+
+>>>
+**Note**  
+
+* Backgraund Start
+
+```
+python manage.py runserver 0.0.0.0:8000 &
+```
+
+* Stop
+
+```
+ps aux | grep python
+kill -9 [PID]
+```
+>>>
 
 ## Licence
 [MIT]
