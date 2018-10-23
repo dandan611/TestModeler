@@ -19,11 +19,18 @@
 
 ## Setup
 
+* Install tabby
 ```bash
 git clone git@github.com:dandan611/tabby.git
 cd tabby
 mkvirtualenv --python=/usr/bin/python3.6 tabby
 pip install -r requirements.txt
+```
+
+* Create super user
+
+```
+python manage.py createsuperuser
 ```
 
 ## Usage
